@@ -1,0 +1,562 @@
+:root {
+    --insha-allah-font-size: 12px;
+    --insha-allah-top-spacing: 18px;
+  
+    --engagement-font-size: 22px;
+    --engagement-top-spacing: 6px;
+    --top-divider-top-spacing: 6px;
+  
+    --names-font-size: 38px;
+    --top-name-spacing: 16px;
+  
+    --hearts-font-size: 19px;
+    --hearts-around-spacing: 10px;
+  
+    --venue-font-size: 18px;
+    --venue-top-spacing: 28px;
+  
+    --stars-width-size: 40px;
+    --patterns-circle-size: 40px;
+    --patterns-left: 0px;
+    --patterns-bottom: 0px;
+    --patterns-right: 0px;
+    --patterns-bottom2: 0px;
+  
+    --timer-time-font-size: 1.2em;
+    --timer-labels-font-size: 10px;
+    --timer-top-spacing: 38px;
+    --timer-col-width: 3.2em;
+    --timer-padding: 8px;
+    --timer-label-top-spacing: 8px;
+  
+    --calendar-button-font-size: 1.2em;
+    --calendar-button-vertical-padding: 12px;
+    --calendar-button-horizontal-padding: 18px;
+    --calendar-button-top-spacing: 26px;
+  }
+  
+  @media (min-height: 320px) {
+    :root {
+      --insha-allah-font-size: 6px;
+      --insha-allah-top-spacing: 4px;
+  
+      --engagement-font-size: 7px;
+      --engagement-top-spacing: 0px;
+      --top-divider-top-spacing: 2px;
+  
+      --names-font-size: 12px;
+      --top-name-spacing: 2px;
+      
+      --hearts-font-size: 6px;
+      --hearts-around-spacing: 0px;
+  
+      --venue-font-size: 6px;
+      --venue-top-spacing: 4px;
+  
+      --stars-width-size: 14px;
+      --patterns-circle-size: 34px;
+      --patterns-left: -13px;
+      --patterns-bottom: -12px;
+      --patterns-right: -14px;
+      --patterns-bottom2: -14px;
+  
+      --timer-time-font-size: 0.7em;
+      --timer-labels-font-size: 6px;
+      --timer-top-spacing: 8px;
+      --timer-col-width: 1.9em;
+      --timer-padding: 4px;
+      --timer-label-top-spacing: 2px;
+  
+      --calendar-button-font-size: 0.7em;
+      --calendar-button-vertical-padding: 6px;
+      --calendar-button-horizontal-padding: 18px;
+      --calendar-button-top-spacing: 12px;
+    }
+  }
+  
+  @media (min-height: 420px) {
+    :root {
+      --insha-allah-font-size: 8px;
+      --insha-allah-top-spacing: 8px;
+  
+      --engagement-font-size: 14px;
+      --engagement-top-spacing: 2px;
+      --top-divider-top-spacing: 4px;
+  
+      --names-font-size: 24px;
+      --top-name-spacing: 6px;
+  
+      --hearts-font-size: 18px;
+      --hearts-around-spacing: 4px;
+  
+      --venue-font-size: 12px;
+      --venue-top-spacing: 14px;
+  
+      --stars-width-size: 28px;
+      --patterns-circle-size: 44px;
+      --patterns-left: -16px;
+      --patterns-bottom: -15px;
+      --patterns-right: -14px;
+      --patterns-bottom2: -14px;
+  
+      --timer-time-font-size: 0.8em;
+      --timer-labels-font-size: 6px;
+      --timer-top-spacing: 8px;
+      --timer-col-width: 2em;
+      --timer-padding: 4px;
+      --timer-label-top-spacing: 3px;
+  
+      --calendar-button-font-size: 0.8em;
+      --calendar-button-vertical-padding: 8px;
+      --calendar-button-horizontal-padding: 18px;
+      --calendar-button-top-spacing: 12px;
+    }
+  }
+  
+  @media (min-height: 667px) {
+    :root {
+      --insha-allah-font-size: 10px;
+      --insha-allah-top-spacing: 10px;
+  
+      --engagement-font-size: 16px;
+      --engagement-top-spacing: 4px;
+      --top-divider-top-spacing: 8px;
+  
+      --names-font-size: 26px;
+      --top-name-spacing: 10px;
+  
+      --hearts-font-size: 12px;
+      --hearts-around-spacing: 8px;
+  
+      --venue-font-size: 14px;
+      --venue-top-spacing: 14px;
+  
+      --stars-width-size: 34px;
+      --patterns-circle-size: 68px;
+      --patterns-left: -26px;
+      --patterns-bottom: -24px;
+      --patterns-right: -30px;
+      --patterns-bottom2: -22px;
+  
+      --timer-time-font-size: 1.2em;
+      --timer-labels-font-size: 10px;
+      --timer-top-spacing: 38px;
+      --timer-col-width: 3.2em;
+      --timer-padding: 8px;
+      --timer-label-top-spacing: 4px;
+  
+      --calendar-button-font-size: 1.2em;
+      --calendar-button-vertical-padding: 12px;
+      --calendar-button-horizontal-padding: 18px;
+      --calendar-button-top-spacing: 26px;
+    }
+  }
+  
+  @media (min-height: 736px) {
+    :root {
+      --insha-allah-font-size: 11px;
+      --insha-allah-top-spacing: 12px;
+  
+      --engagement-font-size: 18px;
+      --engagement-top-spacing: 6px;
+      --top-divider-top-spacing: 10px;
+  
+      --names-font-size: 28px;
+      --top-name-spacing: 12px;
+  
+      --hearts-font-size: 14px;
+      --hearts-around-spacing: 10px;
+  
+      --venue-font-size: 14px;
+      --venue-top-spacing: 14px;
+  
+      --stars-width-size: 38px;
+      --patterns-circle-size: 88px;
+      --patterns-left: -32px;
+      --patterns-bottom: -32px;
+      --patterns-right: -42px;
+      --patterns-bottom2: -34px;
+  
+      --timer-time-font-size: 1.2em;
+      --timer-labels-font-size: 10px;
+      --timer-top-spacing: 38px;
+      --timer-col-width: 3.2em;
+      --timer-padding: 8px;
+      --timer-label-top-spacing: 8px;
+  
+      --calendar-button-font-size: 1.2em;
+      --calendar-button-vertical-padding: 12px;
+      --calendar-button-horizontal-padding: 18px;
+      --calendar-button-top-spacing: 26px;
+    }
+  }
+  
+  @media (min-height: 812px) {
+    :root {
+      --insha-allah-font-size: 12px;
+      --insha-allah-top-spacing: 15px;
+  
+      --engagement-font-size: 20px;
+      --engagement-top-spacing: 6px;
+      --top-divider-top-spacing: 6px;
+  
+      --names-font-size: 32px;
+      --top-name-spacing: 12px;
+  
+      --hearts-font-size: 16px;
+      --hearts-around-spacing: 8px;
+  
+      --venue-font-size: 17px;
+      --venue-top-spacing: 20px;
+  
+      --stars-width-size: 40px;
+      --patterns-circle-size: 98px;
+      --patterns-left: -38px;
+      --patterns-bottom: -38px;
+      --patterns-right: -40px;
+      --patterns-bottom2: -34px;
+  
+      --timer-time-font-size: 1.2em;
+      --timer-labels-font-size: 10px;
+      --timer-top-spacing: 38px;
+      --timer-label-top-spacing: 8px;
+  
+      --calendar-button-font-size: 1.2em;
+      --calendar-button-vertical-padding: 12px;
+      --calendar-button-horizontal-padding: 18px;
+      --calendar-button-top-spacing: 26px;
+    }
+  }
+  
+  html {
+    background: radial-gradient(78% 106.13% at 47.76% -1.15%, #157B7D 0%, #072E31 100%);
+    background-size: auto;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  
+    font-family: 'Cinzel', serif;
+    height: 100%;
+    color: white;
+  }
+  
+  body {
+    min-height: 100%;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+  }
+  
+ #hearts {
+    color: red;
+  }
+  .container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .top_header, .section_bottom {
+    flex-grow: 1;
+  }
+  
+  .section_bottom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .top_header {
+    width: 100%;
+  }
+  
+  .section_card {
+    height: 57vh;
+    width: calc(57vh * 0.53);
+    position: relative;
+    display: flex;
+    justify-content: center;
+  }
+  
+  #image_artifact {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+  }
+  
+  #image_mosque {
+    width: 100%;
+    z-index: 22;
+    align-self: center;
+  }
+  
+  #card_contents {
+    position: absolute;
+    width: 100%;
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    height: 80%;
+    z-index: 33;
+  }
+  
+  #image_krescent {
+    width: calc(100% * 0.17);
+    align-self: center;
+  }
+  
+  #image_divider_top, #image_divider_bottom {
+    width: calc(100% * 0.45);
+    align-self: center;
+  }
+  
+  #image_divider_bottom {
+    rotate: 180deg;
+  }
+  
+  #card_contents>p {
+    text-align: center;
+    margin: 0;
+  }
+  
+  #card_contents>p:nth-child(2) {
+    margin-top: var(--insha-allah-top-spacing);
+    font-size: var(--insha-allah-font-size);
+  }
+  
+  #card_contents>p:nth-child(3) {
+    font-size: var(--nikaah-font-size);
+    margin-top: var(--nikaah-top-spacing);
+  }
+  
+  #image_divider_top {
+    margin-top: var(--top-divider-top-spacing);
+  }
+  
+  #card_contents>p:nth-child(5) {
+    font-size: var(--names-font-size);
+    margin-top: var(--top-name-spacing);
+  }
+  
+  #card_contents>p:nth-child(6) {
+    font-size: var(--hearts-font-size);
+    margin-top: var(--hearts-around-spacing);
+    margin-bottom: var(--hearts-around-spacing);
+  }
+  
+  #card_contents>p:nth-child(7) {
+    font-size: var(--names-font-size);
+    margin-bottom: var(--top-name-spacing);
+  }
+  
+  #card_contents>p:nth-child(9) {
+    font-family: 'Alex Brush', 'Cursive';
+    margin-top: var(--venue-top-spacing);
+    font-size: var(--venue-font-size);
+  }
+  
+  .button_carousel {
+    width: 0.4em;
+    padding-right: 0.8em;
+    padding-left: 0.8em;
+  }
+  
+  #timer {
+    display: flex;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+    padding: var(--timer-padding);
+    margin-top: var(--timer-top-spacing);
+    justify-content: space-around;
+   
+  }
+  
+  #timer>.timer_col {
+    width: var(--timer-col-width);
+  }
+  
+  #timer>.timer_col>p:nth-child(1) {
+    font-size: var(--timer-time-font-size);
+    text-align: center;
+    margin: 0;
+  }
+  
+  #timer>.timer_col>p:nth-child(2) {
+    font-size: var(--timer-labels-font-size);
+    text-align: center;
+    margin: 0;
+    margin-top: var(--timer-label-top-spacing);
+  }
+
+  p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+  
+  #div.timer_colons {
+    font-size: var(--timer-time-font-size);
+  }
+  
+  .button {
+    background-color: #1B72FF;
+    border-radius: 8px;
+    margin-top: var(--calendar-button-top-spacing);
+    position: relative;
+    z-index: 44;
+  }
+  
+  .button>p {
+    margin: 0;
+    text-align: center;
+  }
+  
+  .button>p>a {
+    font-family: 'Nunito Sans';
+    text-align: center;
+    margin: 0;
+    font-weight: 700;
+    font-size: var(--calendar-button-font-size);
+    border-radius: 8px;
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: var(--calendar-button-vertical-padding) var(--calendar-button-horizontal-padding);
+    transition: 600ms;
+  }
+  
+  .button>p>a:hover {
+    box-shadow: 0 0 16px rgba(0, 0, 0, 0.3);
+  }
+  
+  .button:active {
+    transform: scale(0.98);
+  }
+  
+  .image_pattern_circle {
+    position: absolute;
+    bottom: 0px;
+    width: var(--patterns-circle-size);
+  }
+  
+  .image_pattern_circle.one {
+    left: var(--patterns-left);
+    bottom: var(--patterns-bottom);
+    transform-origin: 50% 50%;
+    animation: rotate 16s infinite normal linear;
+  }
+  
+  .image_pattern_circle.two {
+    right: var(--patterns-right);
+    bottom: var(--patterns-bottom2);
+    animation: rotate 20s infinite normal linear;
+  }
+  
+  .image_star_lamp {
+    position: absolute;
+    width: var(--stars-width-size);
+  }
+  
+  .image_star_lamp.one {
+    left: 2vw;
+    transform: translate(0%, -20%);
+  }
+  
+  .image_star_lamp.two {
+    left: 34vw;
+    transform: translate(0%, -40%);
+  }
+  
+  .image_star_lamp.three {
+    right: 24vw;
+    transform: translate(0%, -8%);
+  }
+  
+  .image_star_lamp.four {
+    right: 4vw;
+    transform: translate(0%, -50%);
+  }
+  
+  .scroll_button {
+    display: flex;
+    justify-content: center;
+    margin-top: 1em;
+    width: 4em;
+    align-self: center;
+  }
+  
+  .scroll_button svg {
+    scale: 0.7;
+  }
+  
+  .scroll_button .a_down.first {
+    animation: opacity-anim-first 900ms 0ms infinite normal ease-in-out;
+  }
+  .scroll_button .a_down.second {
+    animation: opacity-anim-second 900ms 0ms infinite normal ease-in-out;
+  }
+  .scroll_button .a_down.third {
+    animation: opacity-anim-third 900ms 0ms infinite normal ease-out;
+  }
+  
+  @keyframes opacity-anim-first {
+    0% {
+      opacity: 0;
+    }
+    30.333% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+  
+  @keyframes opacity-anim-second {
+    0% {
+      opacity: 0;
+    }
+    63.666% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+  
+  @keyframes opacity-anim-third {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  @keyframes rotate-right {
+    0% {
+      transform: rotate(0deg);
+    }
+  
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  
+  @keyframes rotate {
+    100% {
+      transform: rotate(360deg);
+    }
+  }
