@@ -59,21 +59,19 @@
 • Countdown is styled and embedded within the main invite section.
 
 ## 🚀 How to Use
-🖥️ <a href="https://your-live-preview-link.com" target="_blank">Live Preview</a>
+🖥️ <a href="https://mahamadayazmomin.github.io/Ms-Engagement" target="_blank">Live Preview</a>
 
-🔗 <a href="https://your-invitation-demo-link.com" target="_blank">View Live Invitation Demo</a>
+🔗 <a href="https://ms-engagement.netlify.app" target="_blank">View Live Invitation Demo</a>
 
 ## 🛠️ Local Usage
 
-📦 <a href="https://your-download-link.com/project.zip" download>Download the project files</a>
+📦 <a href="https://github.com/mahamadayazmomin/Ms-Engagement.git" download>Download the project files</a>
 
-🌐 Open <code>index.html</code> in any modern browser
-
-🔗 <a href="https://www.netlify.com/" target="_blank">Netlify</a>
+🔗 <a href="https://ms-engagement.netlify.app" target="_blank">Netlify</a>
 
 ## 📂 Pages & Links
-• 📄 <a href="https://github.com/your-username/your-repo-name" target="_blank">Source Code – GitHub</a>\
-• 💌 <a href="https://your-live-invite-page-link.com" target="_blank">Live Invite Page</a>\
+• 📄 <a href="https://github.com/mahamadayazmomin/Ms-Engagement.git" target="_blank">Source Code – GitHub</a>\
+• 💌 <a href="https://mahamadayazmomin.github.io/Ms-Engagement" target="_blank">Live Invite Page</a>\
 • 📅 <a href="https://calendar.google.com/calendar/u/0/r/day/2023/4/30?pli=1" target="_blank">Add to Calendar</a>
 
 ## 💡 Suggestions to Make It Even Better
